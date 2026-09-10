@@ -250,6 +250,7 @@ export async function getTimeseries(req, res, next) {
  * Raw (unaggregated) likelihood/relevance/intensity triples for the
  * scatter chart - capped to a sane number of points. 
  * 
+ * 
  */
 export async function getScatterData(req, res, next) {
   try {
