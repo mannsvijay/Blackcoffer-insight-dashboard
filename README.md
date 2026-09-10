@@ -2,6 +2,13 @@
 
 A full-stack data visualization dashboard built for the Blackcoffer Data Visualization Dashboard test assignment. It reads insight records (intensity, likelihood, relevance, topic, sector, region, country, etc.) from MongoDB through a REST API and renders them as an interactive, filterable analytics dashboard.
 
+
+<p align="center">
+  <a href="https://blackcoffer-insight-dashboard.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-success?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
+
 ## Overview
 
 The dataset (`jsondata.json`, 1000 records) is a set of research insights — short predictions/observations (e.g. about energy, economic growth, policy) each scored on intensity, likelihood, and relevance, and tagged with topic, sector, region, country, PESTLE category, and source. This app seeds that data into MongoDB, serves it through an Express API with server-side filtering and aggregation, and visualizes it in a React dashboard.
