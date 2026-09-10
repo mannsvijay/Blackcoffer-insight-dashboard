@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible keyboard focus - accessibility floor, not decoration */
+:focus-visible {
+  outline: 2px solid #3FBFAA;
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0F1620;
+}
+::-webkit-scrollbar-thumb {
+  background: #232E3B;
+  border-radius: 6px;
+}
